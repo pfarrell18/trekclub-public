@@ -1,0 +1,161 @@
+html{
+  background-image: url(/images/background.png);
+  background-repeat: no-repeat;
+
+}
+
+.container{
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+
+}
+
+.card{
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 14px;
+  
+}
+
+.hikeimage{
+  width: 100%;
+  height: 30%;
+  background-position: center;
+  overflow:hidden
+}
+
+.button{
+  margin: 10px;
+}
+
+.goldStar{
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.Link{
+  margin: 10px;
+}
+
+.navbar{
+  display: flex;
+}
+
+.temperature{
+  background-color: lightgoldenrodyellow;
+  z-index: 1;
+  opacity:70%;
+}
+
+.form{
+  width: 50%;
+  height: 30%;
+  opacity: 70%;
+  background-color: lightgoldenrodyellow;
+}
+
+
+.hero{
+  opacity: 90%;
+  z-index: -1;
+  /* position: absolute; */
+  overflow: hidden;
+  
+}
+
+.main{
+  font-size: 50%;
+}
+
+.hikingbuddy{
+  background-image: url(/src/background.png);
+}
+.Register{
+  background-color: lightgoldenrodyellow;
+  opacity: 70%;
+}
+
+.registerForm, .loginForm{
+  background-color: rgba(255, 255, 255, 0.316);  
+  display:flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.registerForm{
+  background-image:url(./Images/1.png);
+}
+
+.loginForm{
+  background-image:url(./Images/lake.png);
+}
+.field {
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.hikeitem{
+  padding: 5px;
+}
+
+navbar-brand {
+  align-content: space-around;
+}
+
+.myHikes{
+  background-image: url(./Images/mountain.png);
+  height: 350px;
+  text-align: center;
+}
+.loginForm1, .registerForm1{
+  background-color: rgba(255, 255, 255, 0.458);
+  margin: 20px;
+}
+
+.card-content{
+  background-color: rgba(255, 255, 255, 0.658);
+  align-content: center;
+}
+
+.search{
+  background-image: url(./Images/mountain.png);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.saved{
+  background-image: url(./Images/dog.png);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.saved1{
+  background-image: url(./Images/shoes.png);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+}
+
+.saved2{
+  background-image: url(./Images/background.png);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  background-position: bottom;
+}
+.form1, .hikes-header {
+  background-color:rgba(255, 255, 255, 0.658) ;
+  padding: 30px;
+  margin: 10px
+}
